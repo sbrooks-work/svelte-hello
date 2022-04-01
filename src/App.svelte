@@ -1,6 +1,7 @@
 <script>
   import logo from './assets/svelte.png'
   import Counter from './lib/Counter.svelte'
+  import SomeFile from './lib/SomeFile.svelte'
 </script>
 
 <main>
@@ -8,7 +9,8 @@
   <h1>Hello world!</h1>
 
   <Counter />
-
+And here...
+<SomeFile />
   <p>
     Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
     apps.
